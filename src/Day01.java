@@ -5,7 +5,7 @@ public class Day01 {
         BufferedReader input;
         //open input data
         try {
-            input = new BufferedReader(new FileReader("ressources/day01_input.txt"));
+            input = new BufferedReader(new FileReader("resources/day01_input.txt"));
         } catch (FileNotFoundException e) {
             System.err.println("file not found");
             return -1;
